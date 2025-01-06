@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if the provided configuration object is missing required fields. For example, if the `apiKey`, `authDomain`, `projectId`, etc. are missing or incorrect, initialization will fail and your app won't connect to Firebase.  This often leads to silent failures or difficult-to-debug issues.
